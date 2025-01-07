@@ -108,5 +108,5 @@ Once the server is running, open your browser and navigate to:
 http://127.0.0.1:8000
 ```
 You should see the FastAPI application running. If you see the FastAPI interface or any other expected output, the setup is complete.
-![image](https://github.com/user-attachments/assets/ed845428-6c9f-40e1-bcd1-366542f5ad32)
+
 
