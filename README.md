@@ -1,6 +1,9 @@
 # -Enhancing-Liver-Tumor-Diagnosis-with-Attention-U-Net-and-LLM-Chatbot
 
-Installation Documentation
+#Abstract
+This project focuses on enhancing liver tumor segmentation and patient interaction through a hybrid U-Net model with attention mechanisms and a Large Language Model (LLM)-powered chatbot. The proposed solution integrates transformer blocks into the U-Net architecture to improve segmentation precision in liver CT scans, addressing challenges such as tumor variability and class imbalance. The web application provides an intuitive interface for uploading CT images, visualizing segmentation outputs, and interacting with the LLM chatbot for personalized and empathetic healthcare guidance. Results demonstrate the system's high accuracy (99.12%) and user engagement effectiveness, paving the way for AI-driven advancements in diagnostic healthcare. Future work includes expanding to multimodal imaging, 3D convolution, and clinical system integration.
+
+#Installation Documentation
 
 Dataset Link:
 
@@ -19,10 +22,10 @@ pip install Flask Flask-SQLAlchemy Flask-Bcrypt matplotlib Pillow numpy tensorfl
 
 Place the unet_model_weights.weights.h5 in the root directory.
 
-# Set environment variable
+## Set environment variable
 export FLASK_APP=app.py
 
-# Start the application
+## Start the application
 flask run
 
 Visit http://localhost:5000 to access the app after starting the server.
@@ -31,7 +34,7 @@ Visit http://localhost:5000 to access the app after starting the server.
 For LLM file that is with the name liver_tumor_ai
 
 Here’s a detail for `liver_tumor_ai`. This guides users through the setup, including creating a virtual environment, installing dependencies, setting up the `.env` file for the Google API key, and starting the FastAPI app.
-# liver_tumor_ai
+## liver_tumor_ai
 This project leverages FastAPI and AI models to assist in analyzing liver tumor data. It integrates with Google API services for AI processing and provides an interactive web interface.
 
 ## Setup Guide
